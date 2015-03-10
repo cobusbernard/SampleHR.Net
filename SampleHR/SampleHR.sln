@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleHR.API", "SampleHR\SampleHR.API.csproj", "{8A1AEA20-4389-460B-BDC6-DDCD4F503B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleHR.Tests", "SampleHR.Tests\SampleHR.Tests.csproj", "{89A99DA5-847F-4B27-AFA8-7C5E1048353D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{6868AA84-F532-4D3B-B026-958FF2813415}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{15DF0F78-A0FD-4E0B-9A41-934CB186CC49}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\SampleHR-WAWS-dev.json = PublishScripts\Configurations\SampleHR-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleHR.Net.Core", "SampleHR.Net.Core\SampleHR.Net.Core.csproj", "{B44D28E3-E089-405D-BD30-147F83697A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleHR.Net.DependencyResolver", "SampleHR.Net.DependencyResolver\SampleHR.Net.DependencyResolver.csproj", "{43DE4091-F831-4177-A8D0-143BBEFEA191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{148C25AF-7FF9-412B-B875-A35373358CF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A1AEA20-4389-460B-BDC6-DDCD4F503B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1AEA20-4389-460B-BDC6-DDCD4F503B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1AEA20-4389-460B-BDC6-DDCD4F503B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1AEA20-4389-460B-BDC6-DDCD4F503B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A99DA5-847F-4B27-AFA8-7C5E1048353D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A99DA5-847F-4B27-AFA8-7C5E1048353D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A99DA5-847F-4B27-AFA8-7C5E1048353D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A99DA5-847F-4B27-AFA8-7C5E1048353D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44D28E3-E089-405D-BD30-147F83697A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44D28E3-E089-405D-BD30-147F83697A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44D28E3-E089-405D-BD30-147F83697A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44D28E3-E089-405D-BD30-147F83697A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DE4091-F831-4177-A8D0-143BBEFEA191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DE4091-F831-4177-A8D0-143BBEFEA191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DE4091-F831-4177-A8D0-143BBEFEA191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DE4091-F831-4177-A8D0-143BBEFEA191}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15DF0F78-A0FD-4E0B-9A41-934CB186CC49} = {6868AA84-F532-4D3B-B026-958FF2813415}
+	EndGlobalSection
+EndGlobal
